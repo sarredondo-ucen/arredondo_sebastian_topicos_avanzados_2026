@@ -4,7 +4,7 @@ BEGIN
     EXECUTE IMMEDIATE 'CREATE TABLE DetallesPedidos (
 	PedidoID NUMBER,
 	ProductoID NUMBER,
-	Total NUMBER,
+	Cantidad NUMBER,
 	CONSTRAINT pk_pedidos_productos PRIMARY KEY (PedidoID, ProductoID),
 	CONSTRAINT fk_detalle_pedido FOREIGN KEY (PedidoID) REFERENCES Pedidos (PedidoID),
 	CONSTRAINT fk_detalle_producto FOREIGN KEY (ProductoID) REFERENCES Productos (ProductoID),
