@@ -1,1 +1,3 @@
-# # Tópicos Avanzados en Datos
+# # Tópicos Avanzados en Dato
+
+Sebastian Arredondo
