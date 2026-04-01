@@ -17,6 +17,10 @@
 
 ## Historial de cambios
 
+### 01/04/2026
+
+* Formulacion de bloque anonimo PL/SQL
+
 ### 31/03/2026
 
 * Creacion de directorios adicionales con el fin de estandarizar la estructura del repositorio.
